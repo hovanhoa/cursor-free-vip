@@ -235,8 +235,6 @@ jobs:
           files: |
             artifacts/CursorFreeVIP_${{ env.VERSION }}_windows.exe/CursorFreeVIP_${{ env.VERSION }}_windows.exe
             artifacts/CursorFreeVIP_${{ env.VERSION }}_mac_arm64/CursorFreeVIP_${{ env.VERSION }}_mac_arm64
-            artifacts/CursorFreeVIP_${{ env.VERSION }}_linux_x64/CursorFreeVIP_${{ env.VERSION }}_linux_x64
-            artifacts/CursorFreeVIP_${{ env.VERSION }}_linux_arm64/CursorFreeVIP_${{ env.VERSION }}_linux_arm64
             artifacts/CursorFreeVIP_${{ env.VERSION }}_mac_intel/CursorFreeVIP_${{ env.VERSION }}_mac_intel
           draft: false
           prerelease: false
