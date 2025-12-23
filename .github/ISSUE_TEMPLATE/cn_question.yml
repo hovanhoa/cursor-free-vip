@@ -19,7 +19,7 @@ body:
           required: true
         - label: 我确认自己需要的是提出问题并且讨论问题，而不是 Bug 反馈或需求建议。
           required: true
-        - label: 我已阅读 [Github Issues](https://github.com/yeongpin/cursor-free-vip/issues) 并搜索了现有的 [开放 Issue](https://github.com/yeongpin/cursor-free-vip/issues) 和 [已关闭 Issue](https://github.com/yeongpin/cursor-free-vip/issues?q=is%3Aissue%20state%3Aclosed%20)，没有找到类似的问题。
+        - label: 我已阅读 [Github Issues](https://github.com/hovanhoa/cursor-free-vip/issues) 并搜索了现有的 [开放 Issue](https://github.com/hovanhoa/cursor-free-vip/issues) 和 [已关闭 Issue](https://github.com/hovanhoa/cursor-free-vip/issues?q=is%3Aissue%20state%3Aclosed%20)，没有找到类似的问题。
           required: true
           
   - type: dropdown

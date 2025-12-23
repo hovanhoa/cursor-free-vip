@@ -325,13 +325,13 @@ def modify_workbench_js(file_path: str, translator=None) -> bool:
             if sys.platform == "win32":
                 # Define replacement patterns
                 CButton_old_pattern = r'$(k,E(Ks,{title:"Upgrade to Pro",size:"small",get codicon(){return F.rocket},get onClick(){return t.pay}}),null)'
-                CButton_new_pattern = r'$(k,E(Ks,{title:"yeongpin GitHub",size:"small",get codicon(){return F.rocket},get onClick(){return function(){window.open("https://github.com/yeongpin/cursor-free-vip","_blank")}}}),null)'
+                CButton_new_pattern = r'$(k,E(Ks,{title:"hovanhoa GitHub",size:"small",get codicon(){return F.rocket},get onClick(){return function(){window.open("https://github.com/hovanhoa/cursor-free-vip","_blank")}}}),null)'
             elif sys.platform == "linux":
                 CButton_old_pattern = r'$(k,E(Ks,{title:"Upgrade to Pro",size:"small",get codicon(){return F.rocket},get onClick(){return t.pay}}),null)'
-                CButton_new_pattern = r'$(k,E(Ks,{title:"yeongpin GitHub",size:"small",get codicon(){return F.rocket},get onClick(){return function(){window.open("https://github.com/yeongpin/cursor-free-vip","_blank")}}}),null)'
+                CButton_new_pattern = r'$(k,E(Ks,{title:"hovanhoa GitHub",size:"small",get codicon(){return F.rocket},get onClick(){return function(){window.open("https://github.com/hovanhoa/cursor-free-vip","_blank")}}}),null)'
             elif sys.platform == "darwin":
                 CButton_old_pattern = r'M(x,I(as,{title:"Upgrade to Pro",size:"small",get codicon(){return $.rocket},get onClick(){return t.pay}}),null)'
-                CButton_new_pattern = r'M(x,I(as,{title:"yeongpin GitHub",size:"small",get codicon(){return $.rocket},get onClick(){return function(){window.open("https://github.com/yeongpin/cursor-free-vip","_blank")}}}),null)'
+                CButton_new_pattern = r'M(x,I(as,{title:"hovanhoa GitHub",size:"small",get codicon(){return $.rocket},get onClick(){return function(){window.open("https://github.com/hovanhoa/cursor-free-vip","_blank")}}}),null)'
 
             CBadge_old_pattern = r'<div>Pro Trial'
             CBadge_new_pattern = r'<div>Pro'

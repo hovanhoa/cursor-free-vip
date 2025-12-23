@@ -7,7 +7,7 @@ body:
     attributes:
       value: |
         Thank you for taking the time to fill out this bug report!
-        Before submitting this issue, please ensure that you have read the [github issues](https://github.com/yeongpin/cursor-free-vip/issues)
+        Before submitting this issue, please ensure that you have read the [github issues](https://github.com/hovanhoa/cursor-free-vip/issues)
 
   - type: checkboxes
     id: checklist
@@ -18,7 +18,7 @@ body:
       options:
         - label: I understand that Issues are used to provide feedback and solve problems, not to complain in the comments section, and will provide more information to help solve the problem.
           required: true
-        - label: I have checked the top Issue and searched for existing [open issues](https://github.com/yeongpin/cursor-free-vip/issues) and [closed issues](https://github.com/yeongpin/cursor-free-vip/issues?q=is%3Aissue%20state%3Aclosed%20), and found no similar issues.
+        - label: I have checked the top Issue and searched for existing [open issues](https://github.com/hovanhoa/cursor-free-vip/issues) and [closed issues](https://github.com/hovanhoa/cursor-free-vip/issues?q=is%3Aissue%20state%3Aclosed%20), and found no similar issues.
           required: true
         - label: I have filled out a short and clear title, so that developers can quickly determine the general problem when browsing the Issue list. Not "a suggestion", "stuck", etc.
           required: true

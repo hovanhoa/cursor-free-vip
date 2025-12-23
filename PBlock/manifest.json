@@ -2,8 +2,8 @@
   "name": "PBlock",
   "version": "0.1",
   "manifest_version": 3,
-  "author": "yeongpin",
-  "url": "https://github.com/yeongpin/PBlock",
+  "author": "hovanhoa",
+  "url": "https://github.com/hovanhoa/PBlock",
   "description": "Just a simple blocker.",
   "action": {
     "default_icon": "enabled48.png"
